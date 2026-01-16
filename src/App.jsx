@@ -1,5 +1,5 @@
 import Header from "./Header";
-import Footer from "./footer";
+import Footer from "./Footer";
 import Card from "./Card";
 
 import profilePic from "./assets/My_Profile_Pic.jpg";
