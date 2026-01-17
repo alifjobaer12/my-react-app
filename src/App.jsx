@@ -1,7 +1,7 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import Card from "./Card";
-import Info from "./info";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
+import Card from "./Card.jsx";
+import Info from "./info.jsx";
 
 import profilePic from "./assets/My_Profile_Pic.jpg";
 
