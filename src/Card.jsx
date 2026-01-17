@@ -1,7 +1,9 @@
+import PropTypes from 'prop-types'
+
 function Card(props) {
 	return (
 		<>
-			<div className="m-1 card max-w-55.5 rounded-lg bg-cyan-200 border-2 p-4 shadow-2xl inline-block">
+			<div className="m-1 card max-w-55.5 h-auto rounded-lg bg-cyan-200 border-2 p-4 shadow-2xl inline-block">
 				<div className="flex-col justify-items-center">
 					<div className="max-w-[70%] h-auto mb-2 flex-col justify-items-center">
 						<img
@@ -20,6 +22,12 @@ function Card(props) {
 			</div>
 		</>
 	);
+}
+
+Card.propTypes = {
+    name : PropTypes.string,
+    profilePic : PropTypes.string,
+    des : PropTypes.string,
 }
 
 export default Card;
