@@ -2,6 +2,9 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Card from "./Card.jsx";
 import Info from "./ProfileInfo.jsx";
+import Button from "./Button.jsx";
+import Counter from "./Counter.jsx";
+import ColorPicker from "./ColotPicker.jsx";
 
 import profilePic from "./assets/My_Profile_Pic.jpg";
 
@@ -86,6 +89,14 @@ function App() {
 					des="Sutdent of BUBT"
 				/>
 			</div>
+
+			<br />
+
+			<Button /> <br />
+
+			<Counter />
+
+			<ColorPicker />
 
 			<Info information={info} />
 
